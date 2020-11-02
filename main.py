@@ -53,7 +53,7 @@ button[0].click()
 #button1 = driver.find_elements_by_css_selector('[role="menuitem"]')
 #button1[-1].click()
 
-os.system('autokey-run -s select_image')
+os.system('autokey-run -s image_select.py')
 
 time.sleep(10)
 button=driver.find_elements_by_xpath("//*[contains(text(), 'Expand')]")
